@@ -81,7 +81,13 @@ header img{
     margin-top: 30px;
     text-align: center;
 }
-
+.primasezione div{
+    display: inline-block;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:100px;
+}
 .primasezione{
     display: inline-block;
     width: 100%;
@@ -89,10 +95,13 @@ header img{
 }
 
 .primasezione img{
-   
-    width: 300px;
-    margin-top: 20px;
-border-radius:50% 50% 50% 50% / 50% 50% 50% 50%  ;
+    
+    margin-bottom: 100px;
+   margin-left: 150px;
+   margin-right: 0;
+    width: 400px;
+    margin-top: 100px;
+    border-radius:50% 50% 50% 50% / 50% 50% 50% 50%  ;
 }
 .middle{
     height:350px ;
