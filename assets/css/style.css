@@ -1,0 +1,111 @@
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    
+    font-family: "Montserrat";
+    color:  #25a2c3 ;
+    line-height: 1.5;
+}
+h1{
+    font-size: 2rem;
+    
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+body{
+    text-align: center;
+    font-family: "Open Sans" ;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65 ;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo img{
+    margin-top: 30px;
+    width: 200px;
+}
+ #logo{
+    background-color: black;
+    height: 120px;
+ }
+
+.sottoheader{
+    display: grid;
+    height: 300px;;
+    text-align: center;
+    background-image: url(/assets/img/banner.jpg);
+    margin-bottom: 20px;
+}
+.sottoheader p{
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   
+
+}
+.sottoheader button{
+    background-color: #f04c2f  ;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 75%;
+    color: white;
+    border-radius: 5px;
+    border-color: #f04c2f;
+    height: 2rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px; 
+    text-align: center;
+    
+}
+main h3{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.primasezione img{
+    width: 300px;
+    margin-top: 20px;
+border-radius:50% 50% 50% 50% / 50% 50% 50% 50%  ;
+}
+.middle{
+    color: white;
+    background-color:#e22d0e ;
+}
+.middle h2{
+font-size: 2.2rem;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.middle p{
+    
+    padding-bottom: 20px;
+}
+.middle span{
+    font-size: 0.8rem;
+}
