@@ -2,8 +2,8 @@
 .open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-weight:weight;
+  font-style:normal;
   font-variation-settings:
     "wdth" 100;
 }
@@ -43,49 +43,72 @@ body{
 }
 #logo img{
     margin-top: 30px;
-    width: 200px;
+    width: 150px;
 }
  #logo{
     background-color: black;
     height: 120px;
  }
+.sottoheader h1{
+    line-height: 1;
+    
 
+    padding-top: 40px;
+    display: inline-block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .sottoheader{
     display: grid;
-    height: 300px;;
+    height: 320px;
     text-align: center;
     background-image: url(/assets/img/banner.jpg);
+    background-size: 100%;
+    background-position: center;
     margin-bottom: 20px;
+    background-repeat: no-repeat;
 }
 .sottoheader p{
+  
    margin-left: 50px;
    margin-right: 50px;
-   margin-top: 50px;
-   margin-bottom: 50px;
+   margin-top: 10px;
+   margin-bottom: 30px;
    
 
 }
 .sottoheader button{
+    cursor: pointer;
     background-color: #f04c2f  ;
     font-family: "Montserrat";
     font-weight: bold;
-    font-size: 75%;
+    font-size: 100%;
     color: white;
     border-radius: 5px;
     border-color: #f04c2f;
-    height: 2rem;
+    height: 3rem;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 0;
     padding: 10px;
     padding-bottom: 30px;
-    margin-bottom: 20px; 
+    margin-bottom: 55px; 
     text-align: center;
     
+}
+main{
+    margin-bottom: 80px;
 }
 main h3{
     padding-top: 20px ;
     padding-bottom: 20px;
+}
+.primasezione{
+    display: inline-block;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 70px;
 }
 .primasezione img{
     width: 300px;
@@ -95,6 +118,9 @@ border-radius:50% 50% 50% 50% / 50% 50% 50% 50%  ;
 .middle{
     color: white;
     background-color:#e22d0e ;
+    padding-top:50px ;
+    padding-bottom:50px ;
+    
 }
 .middle h2{
 font-size: 2.2rem;
@@ -102,10 +128,68 @@ font-size: 2.2rem;
     padding-top: 50px;
     padding-bottom: 20px;
 }
-.middle p{
-    
+.middle h2>p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
     padding-bottom: 20px;
 }
 .middle span{
     font-size: 0.8rem;
+}
+.foto1 img{
+    width: 100%;
+}
+.foto1{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+}
+.foto1 p{
+    padding-left:45px ;
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+.foto1 a{
+   text-decoration: none;
+   color: inherit; 
+}
+footer{
+    background-color:#25a2c3 ;
+    color: white;
+    padding-bottom: 50px;
+}
+footer h2{
+    font-size: 2.3rem;
+    color: white;
+    padding-top:40px ;
+    padding-bottom: 15px;
+}
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+footer div{
+    margin-left:130px ;
+    margin-right: 130px;
+    margin-top:30px ;
+    margin-bottom: 30px; ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.linksotto{
+    text-decoration: underline;
+}
+footer p a{
+    text-decoration: underline;
+}
+footer i{
+    margin-right: 5px;
 }
